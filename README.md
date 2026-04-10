@@ -71,11 +71,11 @@ Building a secure electronic voting system that offers the fairness and privacy 
 Follow the steps below to download, install, and run this project.
 
 ### Step 1. Clone the project
-`git clone https://github.com/rj-since-2000/DSCWOW-DVN`
+`git clone https://github.com/rachakonduguruvaishnavi66/E-voting-system-based-on-Blockchain-Technology.git`
 
 ### Step 2. Install dependencies
 ```
-$ cd DSCWOW-DVN
+$ cd E-voting-system-based-on-Blockchain-Technology.git
 $ npm install
 ```
 ### Step 3. Start Ganache
