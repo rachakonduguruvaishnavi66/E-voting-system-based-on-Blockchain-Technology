@@ -78,20 +78,23 @@ Follow the steps below to download, install, and run this project.
 $ cd E-voting-system-based-on-Blockchain-Technology
 $ npm install
 ```
-### Step 3. Start Ganache
+### Step 3. Install Truffle
+`$ npm install -g truffle`
+
+### Step 4. Start Ganache
 Open the Ganache GUI client. This will start your local blockchain instance.
 
 
-### Step 4. Compile & Deploy Election Smart Contract
+### Step 5. Compile & Deploy Election Smart Contract
 `$ truffle migrate --reset`
 You must migrate the election smart contract each time your restart ganache.
 
-### Step 5. Configure Metamask
+### Step 6. Configure Metamask
 - Unlock Metamask
 - Connect metamask to your local Etherum blockchain provided by Ganache.
 - Import an account provided by ganache.
 
-### Step 6. Run the Front End Application
+### Step 7. Run the Front End Application
 `$ npm run dev`
 Visit this URL in your browser: http://localhost:3000
 
